@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+.nav {
+  background-color: #48e;
+}
+.nav__list {
+  text-align: center;
+  margin: 0;
+}
+
+.nav__item {
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav__link:hover {
+  background-color: #59e;
+}
+
+.nav__link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav__boton {
+  background-color: #fff;
+  color: #48e;
+  padding: 3px 18px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  margin: 0 50px;
+}
+
+.nav__boton:hover {
+  color: #fff;
+  background: transparent;
+}
